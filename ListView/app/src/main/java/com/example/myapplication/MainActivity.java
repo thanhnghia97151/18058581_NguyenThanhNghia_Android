@@ -8,7 +8,7 @@ import android.widget.ListView;
 import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
-    /*ListView lvGoods; //list view
+    ListView lvGoods; //list view
     CustomGoodsAdapter adt;
     ArrayList<Goods> arrayList;
     @Override
@@ -25,10 +25,10 @@ public class MainActivity extends AppCompatActivity {
         adt = new CustomGoodsAdapter(this,R.layout.item_listview,arrayList);
         lvGoods.setAdapter(adt);
 
-    }*/
-    @Override
+    }
+    /*@Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-    }
+    }*/
 }
