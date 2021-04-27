@@ -22,7 +22,7 @@ public class Fragment_Above extends Fragment {
         ImageButton imgMinus = above.findViewById(R.id.imgMinus);
         ImageButton imgAdd = above.findViewById(R.id.imgAdd);
         TextView tvQuality = above.findViewById(R.id.tvQuality);
-
+//Cong
         imgAdd.setOnClickListener(new View.OnClickListener() {
 
             @Override
@@ -33,6 +33,7 @@ public class Fragment_Above extends Fragment {
                 tvQuality.setText(String.valueOf(dem));
             }
         });
+        //Tru
         imgMinus.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
