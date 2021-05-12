@@ -29,12 +29,14 @@ public class MainActivity extends AppCompatActivity {
         electricThings.add(new ElectricThing("Day nguon","10000 ",R.drawable.daynguon_1,3));
         electricThingAdapter = new ElectricThingAdapter(this,electricThings);
         rcvThing.setAdapter(electricThingAdapter);
-        /*rcvThing.setLayoutManager(new LinearLayoutManager((this))); // SHow normal
+        rcvThing.setLayoutManager(new LinearLayoutManager((this))); // SHow normal
 
-        GridLayoutManager gridLayoutManager = new GridLayoutManager(this,2); // Show vs 2 cot
+        /*GridLayoutManager gridLayoutManager = new GridLayoutManager(this,2); // Show vs 2 cot
         rcvThing.setLayoutManager(gridLayoutManager);*/
-        LinearLayoutManager linearLayoutManager = new LinearLayoutManager(this,LinearLayoutManager.HORIZONTAL,false);
-        rcvThing.setLayoutManager(linearLayoutManager); // Show theo hang ngang
+
+
+       /* LinearLayoutManager linearLayoutManager = new LinearLayoutManager(this,LinearLayoutManager.HORIZONTAL,false);
+        rcvThing.setLayoutManager(linearLayoutManager); // Show theo hang ngang*/
 
     }
 }
